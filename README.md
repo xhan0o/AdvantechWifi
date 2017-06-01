@@ -1,11 +1,15 @@
 # Request Listener
 Request listener
+
 Hardware : Advantech Wise 4012 
+
 Technology: Python-Flask
+
 Motivation: Server integration or data processing
 
 ### Files
 RequestListener.py : Works for every request
+
 AdvantechPostListener.py : Listens and maps 'Push Notifications(JSON)'
 
 
