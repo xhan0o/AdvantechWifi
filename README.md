@@ -36,12 +36,11 @@ Server will start at ip of host (you can find that by __ifconfig__)
 
 __readings__ : dictonary 
 ``` json 
-[{Data: Sensor Data,
+readings = [{Data: Sensor Data,
   MAC: Mac Address,
   Pe: PE,
   Time: Time Stamp,
   UID: Device name,
-  id: 1}
-]
+  id: 1}]
 ```
 
