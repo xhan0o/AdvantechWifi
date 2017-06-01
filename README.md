@@ -4,6 +4,11 @@ Hardware : Advantech Wise 4012
 Technology: Python-Flask
 Motivation: Server integration or data processing
 
+### Files
+RequestListener.py : Works for every request
+AdvantechPostListener.py : Listens and maps 'Push Notifications(JSON)'
+
+
 ### Set up python-flask on Raspberry pi 
 1. Installing pip
 ```bash
@@ -23,16 +28,16 @@ pi@raspberrypi ~ $ sudo python RequestListner.py
 ```
 Server will start at ip of host (you can find that by __ifconfig__)
 
-### APIs
+### JSON
 
 __readings__ : dictonary 
 ``` json 
-[{'Data': 'Sensor Data',
-  'MAC': 'Mac Address',
-  'Pe': 'PE',
-  'Time': 'TIme Stamp',
-  'UID': 'Device name',
-  'id': 1}
+[{Data: Sensor Data,
+  MAC: Mac Address,
+  Pe: PE,
+  Time: Time Stamp,
+  UID: Device name,
+  id: 1}
 ]
 ```
 
