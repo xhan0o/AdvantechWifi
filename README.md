@@ -8,9 +8,9 @@ Technology: Python-Flask
 Motivation: Server integration or data processing
 
 ### Files
-RequestListener.py : Works for every request
+RequestListener.py : Works for every request , displays request data on commandline
 
-AdvantechPostListener.py : Listens and maps 'Push Notifications(JSON)'
+AdvantechPostListener.py : Listens and maps 'Push Notifications(JSON)' to python list.
 
 
 ### Set up python-flask on Raspberry pi 
